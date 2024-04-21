@@ -8,6 +8,10 @@
     "postinstall": "bunx sort-package-json",
     "simulate": "bun run src/index.ts"
   },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "websocket-ts": "^2.1.5"
+  },
   "devDependencies": {
     "sort-package-json": "^2.6.0"
   }
