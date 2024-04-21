@@ -1,0 +1,14 @@
+{
+  "name": "sb-function-simulate",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Jackson Jessup <jack@switchboard.xyz>",
+  "main": "src/index.js",
+  "scripts": {
+    "postinstall": "bunx sort-package-json",
+    "simulate": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "sort-package-json": "^2.6.0"
+  }
+}
